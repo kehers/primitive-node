@@ -1,5 +1,5 @@
 # primitive-node
-An image server port of [primitive.js](https://github.com/ondras/primitive.js)/[primitive](https://github.com/fogleman/primitive/). (Will write doc and create demo).
+An image server port of [primitive.js](https://github.com/ondras/primitive.js)/[primitive](https://github.com/fogleman/primitive/).
 
 ## How it works
 The server receives input from URL query parameters, generates the primitive image and store it on S3, using redis to cache generated urls.
