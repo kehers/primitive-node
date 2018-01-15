@@ -29,10 +29,10 @@ Once the service is running, you can pass the source image and  other parameters
 - `browser`: Set to anything to output image directly to browser instead of returning URL of generated image
 - `compute_size`: Computation size (128 - 512). Default is `128`.
 - `size`: Size of generated image (px). Default: `400`,
-- `steps`: req.query.steps || 100,
+- `steps`: Number of geometric shapes to add. Default: `100`,
 - `alpha`: Starting opacity. Default: `0.5`
 - `shape`: Shape to use. Default: `triangle`. Options: `rectangle`, `ellipse`, `smiley`. You can also use send an array of more than one shape.
-- `shapes_no`: Number of shapes to use. Defaults to `100`
+- `shapes_no`: Number of shapes to start iteration with. Defaults to `100`
 
 ## License
 MIT
